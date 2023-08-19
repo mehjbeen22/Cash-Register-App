@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+  /* border: solid; */
+  height: 105vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: #115e59;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  text-align: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px 0px 0px;
+}
+
+#cashGivenCase {
+  display: none;
+  width: 100%;
+  background-color: #115e59;
+  color: #ffffff;
+  width: 40vw;
+  text-align: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#heading {
+  font-size: 2.3rem;
+  margin: 1rem;
+}
+
+#sub-heading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 80%;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+input {
+  padding: 1rem;
+  width: 90%;
+  margin: 5px;
+}
+
+#checkBtn,
+#NextBtn {
+  padding: 10px;
+  width: 40%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4ade80;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#NextBtn {
+  display: block;
+}
+
+caption {
+  font-size: 1.6rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1rem;
+  width: 90%;
+}
+
+th,
+td {
+  border: solid white;
+  border-collapse: collapse;
+  font-weight: bold;
+  padding: 1rem;
+  border-spacing: 0px;
+}
+
+#Error-Message {
+  color: #fda4af;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px;
+}
